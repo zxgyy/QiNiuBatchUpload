@@ -9,11 +9,11 @@ It is base on C/C++, and used for batch uploading for QiNiu
  
  [Information]
  
-  AccessKey=<your accesskey>
+  AccessKey="your accesskey"
   
-  SecretKey=<your secretkey>
+  SecretKey="your secretkey"
   
-  Space=<your bukect(space)>
+  Space="your bukect(space)"
   
-  Path=<the containing fold, for example "C:/htmltest/Info">
+  Path="the containing fold, for example "C:/htmltest/Info""
   
