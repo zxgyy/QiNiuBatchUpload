@@ -1,0 +1,22 @@
+Debug/
+Release/
+
+# Object files
+*.o
+
+# Libraries
+
+# Shared objects (inc. Windows DLLs)
+*.so
+*.so.*
+*.dylib
+
+# Executables
+*.exe
+*.out
+*.app
+
+*.dsw
+*.ncb
+*.opt
+*.plg

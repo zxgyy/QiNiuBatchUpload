@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BatchupLoad", "BatchupLoad\BatchupLoad.vcproj", "{019DBC2B-D163-4D2E-9C0F-D057DE122B95}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{019DBC2B-D163-4D2E-9C0F-D057DE122B95}.Debug|Win32.ActiveCfg = Debug|Win32
+		{019DBC2B-D163-4D2E-9C0F-D057DE122B95}.Debug|Win32.Build.0 = Debug|Win32
+		{019DBC2B-D163-4D2E-9C0F-D057DE122B95}.Release|Win32.ActiveCfg = Release|Win32
+		{019DBC2B-D163-4D2E-9C0F-D057DE122B95}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
