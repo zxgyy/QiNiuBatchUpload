@@ -1,14 +1,15 @@
 #ifndef _READ_UPLOAD_INFO_H_
 #define _READ_UPLOAD_INFO_H_
-void ReadUploadInfo(char *FileName, char *AccessKey, char *SecretKey, char *Space, char *Path);
+void ReadUploadInfo(char *FileName, char **pHead);
 
-void ReadUploadInfo(char *FileName, char *AccessKey, char *SecretKey, char *Space, char *Path)
+void ReadUploadInfo(char *FileName, char **pHead)
 {
 	CIniConfig iniconfig(FileName);
-	iniconfig.GetString("Information","AccessKey",AccessKey,256);
-	iniconfig.GetString("Information","SecretKey",SecretKey,256);
-	iniconfig.GetString("Information","Space",Space,256);
-	iniconfig.GetString("Information","Path",Path,256);
+	iniconfig.GetString("Information","AccessKey",pHead[0],256);
+	iniconfig.GetString("Information","SecretKey",pHead[1],256);
+	iniconfig.GetString("Information","Space",pHead[2],256);
+	iniconfig.GetString("Information","Path",pHead[3],256);
+	iniconfig.GetString("Information","Http",pHead[4],256);
 
 }
 #endif

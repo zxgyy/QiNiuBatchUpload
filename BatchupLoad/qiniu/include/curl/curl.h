@@ -1951,7 +1951,6 @@ CURL_EXTERN void curl_free(void *p);
  * This function is not thread-safe!
  */
 CURL_EXTERN CURLcode curl_global_init(long flags);
-
 /*
  * NAME curl_global_init_mem()
  *
