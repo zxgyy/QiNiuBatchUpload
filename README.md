@@ -8,12 +8,9 @@ It is base on C/C++, and used for batch uploading for QiNiu
  is an server. The format of "Information.ini" is like:
  
  [Information]
- 
   AccessKey="your accesskey"
-  
   SecretKey="your secretkey"
-  
   Space="your bukect(space)"
-  
   Path="the containing fold, for example "C:/htmltest/Info""
+  Http="your visit address"
   
